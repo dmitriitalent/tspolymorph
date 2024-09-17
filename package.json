@@ -1,0 +1,21 @@
+{
+  "name": "tspoly",
+  "version": "1.0.0",
+  "description": "Training polymorphism principles",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node -v",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "work": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tspoly"
+  },
+  "author": "Dmitriy Gavshin",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
